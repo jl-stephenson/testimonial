@@ -1,9 +1,8 @@
-const stars = [<span class="fa-regular fa-star"></span>];
+import "./style.css";
 
-const StarBox = ({ name, number, stars }) => {
+const StarBox = ({ name, number }) => {
   return (
     <div className="star-container">
-      <p>{stars}</p>
       <span class="fa-regular fa-star"></span>
       <p>
         Rated {number} Stars in {name}

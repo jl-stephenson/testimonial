@@ -1,4 +1,5 @@
 import Testimonial from "../Testimonial";
+import "./style.css";
 
 const testCopy = [
   {

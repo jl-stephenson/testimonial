@@ -13,6 +13,8 @@ function App() {
     <>
       <Heading />
       <StarBox name="Reviews" number={5} />
+      <StarBox name="Report Guru" number={3} />
+      <StarBox name="BestTech" number={4} />
       <TestimonialBox />
     </>
   );
