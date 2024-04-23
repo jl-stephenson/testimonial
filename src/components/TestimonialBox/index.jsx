@@ -31,6 +31,7 @@ const TestimonialBox = () => {
             name={person.name}
             qualification={person.qualification}
             review={person.review}
+            key={index}
           />
         );
       })}
