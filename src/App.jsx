@@ -11,10 +11,14 @@ function App() {
 
   return (
     <>
-      <Heading />
-      <StarBox name="Reviews" number={5} />
-      <StarBox name="Report Guru" number={3} />
-      <StarBox name="BestTech" number={4} />
+      <div className="flex-container">
+        <Heading />
+        <div className="flex-column">
+          <StarBox name="Reviews" number={5} />
+          <StarBox name="Report Guru" number={3} />
+          <StarBox name="BestTech" number={4} />
+        </div>
+      </div>
       <TestimonialBox />
     </>
   );
